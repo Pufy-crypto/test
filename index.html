@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ONIKI</title>
+    <style>
+        @font-face {
+            font-family: "pixel";
+            src: url("pixel.ttf");
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Your Font Name", pixel;
+            font-size: 2.6vh;
+
+            background-image: url("fon.gif");
+            background-size: cover;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: calc(100vh - 7.4vh);
+        }
+        .gif {
+            width: 45vh;
+            height: 25vh;
+        }
+        
+        .buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 2vh;
+        }
+        
+        .button {
+            margin: 0 1vh;
+            padding: 1vh 1vh;
+            background-color: #bdbdbdb4;
+            border: none;
+            border-radius: 2vh;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .button img {
+            width: 7vh;
+            height: 7vh;
+        }
+        .colorr {
+            color:#491a1a;
+            text-shadow: rgba(255, 245, 205, 0.486) 2vh 0 2vh;
+        }
+        .footer {
+            background-color: #000000af;
+            padding:0.1vh;
+            text-align: center;
+        }
+        p {
+            font-size: 1.4vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="gif" src="logo.gif" alt="GIF">
+        <h2 class="colorr">скоро открытие</h2>
+        <div class="buttons">
+            <button  onclick="window.location.href = 'https://www.instagram.com/oniki_what/';" class="button"><img src="b1.png" alt="Image 1"></button>
+            <button  onclick="window.location.href = 'https://vk.com/oniki_what';" class="button"><img src="b2.png" alt="Image 2"></button>
+            <button  onclick="window.location.href = 'https://t.me/oniki_what';" class="button"><img src="b3.png" alt="Image 3"></button>
+        </div>
+    </div>
+    <div class="footer">
+        <p><font font-size="3vh" color="#8d8d8d" face="Arial">ONIKI©</font></p>
+        <p><font font-size="3vh" color="#8d8d8d" face="Arial">ALL RIGHTS RESERVED</font></p>
+    </div>
+</body>
+</html>
